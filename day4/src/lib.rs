@@ -42,7 +42,7 @@ impl Solution {
             }
         }
 
-        dbg!(&check);
+        // dbg!(&check);
     }
 
     pub fn second_part(file: &str) {
@@ -96,6 +96,6 @@ impl Solution {
                 grid[i][j] = b'.';
             }
         }
-        dbg!(&f_val);
+        // dbg!(&f_val);
     }
 }
